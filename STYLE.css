@@ -1,0 +1,55 @@
+QMainWindow {
+    border: 1px solid black;
+    background-color: COLOR1;
+}
+
+QListWidget {
+    background-color: COLOR1;
+}
+
+TabWidget, QListWidget {
+    border: none;
+}
+
+    TabWidget::pane {
+        border: 0;
+    }
+
+    TabWidget#main_tab_widget QTabBar::tab:selected {
+        color: #ff0000;
+        background-color: COLOR1;
+        border-radius: 5px;
+        width: 90px;
+        height: 30px;
+    }
+
+    TabWidget#main_tab_widget QTabBar::tab:!selected {
+        background-color: COLOR2;
+        border-radius: 5px;
+        width: 80px;
+        height: 30px;
+    }
+
+QPushButton, PushButtonWithId, QLineEdit {
+    border-radius: 10px;
+    background-color: COLOR2;
+}
+
+* {
+    color: rgb(200, 200, 200);
+}
+
+QSpinBox {
+    background-color: COLOR2;
+    color: rgb(200, 200, 200);
+    border: none;
+}
+
+QLabel#word_page_picture_label {
+    border-radius: 10px;
+}
+
+QMessageBox {
+    background-color: COLOR1;
+    color: white;
+}
