@@ -5,7 +5,7 @@ from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from functools import partial
 from string import ascii_lowercase
 from DMS import DatabaseManagementSystem
-from CustomWidgets import *
+from custom_widgets import *
 from constants import *
 import urllib.request
 import os
