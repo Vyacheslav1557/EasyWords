@@ -12,7 +12,8 @@ Required files
 --------------
 STYLE.css <br>
 EasyWords.exe (or main.py + DMS.py + CustomWidgets.py + constants.py + queries.py) <br>
-dictionary.db AppIcon.png
+dictionary.db <br>
+AppIcon.png
 
 Contacts
 --------
