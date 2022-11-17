@@ -11,7 +11,7 @@ and then run EasyWords.exe (or main.py).
 Required files
 --------------
 STYLE.css <br>
-EasyWords.exe (or main.py + DMS.py + CustomWidgets.py + constants.py + queries.py) <br>
+EasyWords.exe (or main.py + DMS.py + custom_widgets.py + constants.py + queries.py) <br>
 dictionary.db <br>
 AppIcon.png
 
